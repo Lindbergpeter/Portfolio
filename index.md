@@ -10,8 +10,8 @@ Vi udvikler en forbedret version af itslearning med fokus på brugervenlighed og
 Mit fokus er på **Machine Learning/AI** og **App-udvikling**, som er mine valgte specialiseringer.
 
 ## Dagens indlæg 
+- [Mandag d.18.08.2025](indlaeg/18-08-2025.md)
 - [Hvorfor jeg har valgt mine emner](indlaeg/valg-emner.md)
-
 ## Indhold
 - [Valgfag 1 – Machine Learning/AI](valgfag/MachineLearning-AI.md)  
 - [Valgfag 2 – App-udvikling](valgfag/AppUdvikling.md)  
