@@ -11,7 +11,7 @@ Vi vil udvikle en forbedret version af itslearning med fokus på de mest relevan
 For at sikre den bedste brugeroplevelse vil vi inddrage både studerende og undervisere som Product Owners, da vores fokus er på den eksterne brug af platformen fremfor den interne administration. Samtidig ønsker vi en modulær opbygning, så forskellige virksomheder eller uddannelser kan tilpasse funktionerne til deres behov uden at gøre platformen forvirrende at bruge. 
 
 ## Dagens indlæg
-- [indsnævring af Valgfag: ML/AI](indlaeg/)
+- [indsnævring af Valgfag: ML/AI](indlaeg/beskrivelse_ML-AI.md)
 - [Mandag d.18.08.2025](indlaeg/18-08-2025.md)
 - [Hvorfor jeg har valgt mine emner](indlaeg/valg-emner.md)
 ## Indhold
