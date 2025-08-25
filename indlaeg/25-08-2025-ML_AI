@@ -1,0 +1,42 @@
+# Dagens indlæg, 25-08-2025 – Første forsøg med offline AI-model
+
+I dag har jeg for første gang arbejdet med en offline AI-model via *Ollama*, modellen hedder *Mistral 7B*.
+Det var for at prøve at se, hvordan man kan arbejde med modeller lokalt.  
+
+---
+
+## Mit udgangspunkt  
+I vores projekt vil vi have en feature, hvor systemet automatisk kan generere multiple choice-spørgsmål ud fra et læringsobjekt.  
+Derfor brugte jeg et konkret læringsobjekt om **Scrum** fra undervisningen. Jeg kopierede alt tekst ud af Rise 360, så jeg fik en fil med rent fagligt indhold: `Scrum_clean.txt`.  
+
+---
+
+## Min prototype  
+Jeg lavede et lille **C# konsolprogram**, der:  
+1. Læser indholdet af `Scrum_clean.txt`.  
+2. Sender bidder af teksten ind i modellen *Mistral 7B*.  
+3. Får JSON tilbage med spørgsmål, svarmuligheder og forklaring.  
+4. Viser spørgsmålene ét ad gangen i konsollen, så jeg kan prøve at svare og få ✅/❌ feedback.  
+
+---
+
+## Resultat  
+Programmet kunne generere spørgsmål som:  
+
+```json
+{
+  "stem": "Hvem er ansvarlig for at facilitere Scrum-processen?",
+  "choices": ["A) Product Owner","B) Udviklingsteamet","C) Scrum Master","D) Stakeholders"],
+  "answer_index": 2,
+  "explanation": "Scrum Master er ansvarlig for at facilitere processen."
+}
+
+Og i konsollen kunne jeg spille en lille quiz med 5 spørgsmål.
+
+Demonstration
+
+Her er en kort GIF fra terminalen, hvor jeg kører quizzen baseret på Scrum_clean.txt:
+
+![Konsol-quiz demo](Extra/console-quiz.gif)
+
+
